@@ -21,6 +21,7 @@ public class NoteController {
     }
 
     // method returns the list of notes
+    //
     @GetMapping("")
     public ResponseEntity<List<NoteDto>> getAllNotes(){
         return ResponseEntity
